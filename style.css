@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.menu-bars{
+    position: fixed;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background: #5f8ba0;
+    color: white;
+    padding-top: 50px;
+} 
+
+.menu-bars header {
+    padding-left: 90px;
+    line-height: 70px;
+    cursor: pointer;
+}
+
+.menu-bars header i {
+    margin-right: 20px;
+}
+
+.menu-bars ul li {
+    display: block; 
+    height: 100%;
+    width: 100%;
+    line-height: 70px;
+    padding-left: 90px;
+    box-sizing: border-box;
+    border-top: 2px solid rgba(255, 255, 255, .1);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.menu-bars ul li:hover {
+    padding-left: 100px;
+}
+
+.menu-bars ul li i {
+    margin-right: 20px;
+}
+
+.container {
+    margin-left: 300px;
+    padding-left: 90px;
+}
+
+.header img, .header p{
+    display: inline-block;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+
+.header p {
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 30px;
+    width: 350px;
+}
+
+.header {
+    height: 200px;
+    padding-top: 50px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 60px;
+    width: 50%;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 50px;
+}
+  
+.search input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.search i {
+    color: #888;
+}
+
+.category div{
+    display: inline;
+    margin-right: 50px;
+    font-weight: 700;
+}
+
+.category {
+    margin-bottom: 30px;
+}   
+
+.list {
+    height: 700px;
+    width: 1920px; 
+    margin-bottom: 30px;
+}
+
+.list li {
+    position: relative;
+    height: 120px;
+    list-style: none;
+    margin-bottom: 8px;
+    background: #f2f2f2;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    cursor: default;
+    overflow: hidden;
+    word-wrap: break-word;
+    
+}
+
+.list li p {
+    position: absolute;
+    top: 40%;
+    font-weight: 700;
+    color: rgb(24, 90, 99);
+}   
+
+.icon {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+
+.icon i {
+    padding-left: 40px;
+    font-size: 26px;
+    color: rgb(24, 90, 99);
+}
+
+.add-btn {
+    text-align: center;
+}
+.first-button {
+    width: 60px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background: #2995a8;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 30px; 
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+.first-button i {
+    color: #fff;
+}
+
+.first-button:hover {
+    background: #7acbda;
+}
