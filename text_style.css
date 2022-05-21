@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.header {
+    width: 50%;
+    height: 85px;
+    border: solid 1px #ccc;
+    margin-left: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(244, 250, 244);
+}
+
+.header p {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(24, 90, 99);
+}
+
+.title {
+    display: inline-block;
+    width: 90%;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+}
+
+.title:focus {
+    border-color: rgb(244, 250, 244);
+    outline: 0;
+    box-shadow: none;
+}
+
+.description p {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(24, 90, 99);
+    margin-bottom: 10px;
+}
+
+.btn {
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+    margin-left: 20px;
+}
+
+.btn .add-btn {
+    height: 60px;
+    width: 120px;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 10px;
+    color: white;
+    background: rgb(24, 90, 99);
+}
+
+.btn .add-btn:hover {
+    background: rgb(67, 172, 185);
+}
+
+.btn .cancel-btn {
+    height: 60px;
+    width: 120px;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 10px;
+    color: white;
+    background: rgb(219, 48, 48);
+    margin-left: 15px;
+}
+
+.btn .cancel-btn:hover {
+    background: rgb(235, 124, 124);
+}
