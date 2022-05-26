@@ -5,71 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/b82a3777a7.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
-    <div class="menu-bars">
-        <header><i class="fas fa-bars" id="btn"></i><p>Menu</p></header>
-        <ul>
-            <li><a href="#"></a><i class="fas fa-user"></i><p>User</p></a></li>
-            <li><a href="#"></a><i class="fas fa-search"></i><p>Search</p></a></li>
-            <li><a href="#"></a><i class="fas fa-question-circle"></i><p>About</p></a></li>
-            <li><a href="#"></a><i class="fas fa-cog"></i><p>Settings</p></a></li>
-            <li><a href="#"></a><i class="fas fa-sign-out-alt"></i><p>Log out</p></a></li>
-        </ul>
-    </div>
-    <div class="container">
-        <div class="header">
-            <img src="cheems.jpg">
-            <p>Wellcome, user!</p>
-        </div>
-        
-
-        <div class="search">
-            <i class="fas fa-search"></i>
-            <input type="text" placeholder="Search...">
-        </div>
-
-        <div class="category">
-            <div class="Note">Note</div>
-            <!--<div class="Bookmark">Bookmark</div>
-            <div class="Latest">Latest</div>-->
-        </div>
-
-        <div class="list">
-            <ul class="lists">
-                <!--<li class="note-list" onclick="togglePopup()">
-                    <p>Do smt</p>
-                    <div class="icon">
-                        <button><i class="fa-solid fa-bookmark"></i></button>
-                        <button><i class="fa-solid fa-pen-to-square"></i></button>
-                        <button><i class="fa-solid fa-circle-down"></i></button>
-                        <button><i class="fa-solid fa-trash"></i></button>
-                    </div>
-                </li>-->
+    <div class="body_content">
+        <div class="menu-bars">
+            <header><i class="fas fa-bars" id="btn"></i><p>Menu</p></header>
+            <ul>
+                <li><a href="#"></a><i class="fas fa-user"></i><p>User</p></a></li>
+                <li><a href="#"></a><i class="fas fa-search"></i><p>Search</p></a></li>
+                <li><a href="#"></a><i class="fas fa-question-circle"></i><p>About</p></a></li>
+                <li><a href="#"></a><i class="fas fa-cog"></i><p>Settings</p></a></li>
+                <li><a href="#"></a><i class="fas fa-sign-out-alt"></i><p>Log out</p></a></li>
             </ul>
-        </div>  
-
-        <div class="popup" id="popup-1">
-            <div class="content">
-              <div class="close-btn" onclick="togglePopup()"><i class="fa-solid fa-angles-left"></i></div>  
-              <div class="note-description">
-                    <p class="note-title" id="note-title">abc</p>
-                    <div class="desc" id="note-text">abc</div>
-                    <div class="time" id="note-time">abc</div>
-              </div>    
+        </div>
+        <div class="container">
+            <div class="header">
+                <img src="cheems.jpg">
+                <p>Wellcome, user!</p>
             </div>
-        </div>
-
-        <div id="overlay" onclick="togglePopup()"></div>
-
-        <div class="add-btn">
-            <button class="first-button" onclick="turnPage()"><i class="fa-solid fa-plus"></i></button>
-        </div>
-
-    </div>    
+            
+    
+            <div class="search">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search...">
+            </div>
+    
+            <div class="category">
+                <div class="Note">Note</div>
+                <!--<div class="Bookmark">Bookmark</div>
+                <div class="Latest">Latest</div>-->
+            </div>
+    
+            <div class="list">
+                <ul class="lists">
+                    <!--<li class="note-list" onclick="togglePopup()">
+                        <p>Do smt</p>
+                        <div class="icon">
+                            <button><i class="fa-solid fa-bookmark"></i></button>
+                            <button><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button><i class="fa-solid fa-circle-down"></i></button>
+                            <button><i class="fa-solid fa-trash"></i></button>
+                        </div>
+                    </li>-->
+                </ul>
+            </div>  
+    
+            <div class="popup" id="popup-1">
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup()"><i class="fa-solid fa-angles-left"></i></div>  
+                  <div class="note-description">
+                        <p class="note-title" id="note-title"></p>
+                        <div class="desc" id="note-text"></div>
+                        <div class="time" id="note-time"></div>
+                  </div>    
+                </div>
+            </div>
+    
+            <div id="overlay" onclick="togglePopup()"></div>
+    
+            <div class="add-btn">
+                <button class="first-button" onclick="turnPage()"><i class="fa-solid fa-plus"></i></button>
+            </div>
+    
+        </div>    
+    </div>
 </body>
 <script src="script.js"></script>
 </html>
